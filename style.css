@@ -9,3 +9,17 @@
 @media(max-width:700px){.container{width:min(100% - 36px,540px)}.site-header{height:74px}.brand{font-size:1.3rem}.brand-mark{width:38px;height:38px}.menu-toggle{display:block;z-index:52}.main-nav{display:none;position:absolute;top:73px;left:0;right:0;background:#fff;padding:18px 22px 24px;border-bottom:1px solid var(--line);box-shadow:0 15px 24px #2b174812;flex-direction:column;align-items:stretch;gap:0}.main-nav.is-open{display:flex}.main-nav>a{padding:13px 8px}.main-nav .nav-cta{margin-top:8px;text-align:center}.hero{padding:48px 0 20px}.hero-grid{grid-template-columns:1fr;gap:4px}.hero-copy{padding-bottom:0}.hero h1{font-size:clamp(2.55rem,12vw,3.5rem)}.hero-lead{font-size:1rem;margin:19px 0 23px}.hero-actions{align-items:stretch}.hero-actions .button{flex:1}.hero-art{height:360px;transform:scale(.84);transform-origin:top center;margin:4px -30px -45px}.hero-bottom{gap:9px;flex-wrap:wrap;font-size:.65rem;margin-top:24px}.hero-bottom .line{width:14px}.section{padding:67px 0}.section-heading{margin-bottom:30px}.feature-grid,.service-grid{grid-template-columns:1fr}.feature-card{padding:25px}.feature-card p{min-height:0}.split{grid-template-columns:1fr;gap:35px}.split-visual{min-height:330px}.quote-card{padding:28px;margin:15px}.quote-card p{font-size:1.28rem}.audience-row{gap:10px}.audience-item{padding:18px 15px}.cta-band{padding:43px 0}.cta-content{align-items:flex-start;flex-direction:column;gap:23px}.cta-content .button{width:100%}.footer-main{grid-template-columns:1fr;gap:20px}.footer-main>p{max-width:100%}.footer-links{grid-column:auto;flex-wrap:wrap}.footer-bottom{flex-direction:column;gap:7px}.page-hero{padding:59px 0 54px}.page-hero h1{font-size:clamp(2.5rem,11vw,3.5rem)}.page-hero p{font-size:1rem}.about-split{gap:28px}.values-panel{padding:28px}.value-grid,.principle-grid{grid-template-columns:1fr 1fr;gap:10px}.value-grid article,.principle-grid article{padding:18px}.value-grid article>span{margin-bottom:18px}.timeline-item{grid-template-columns:48px 1fr;gap:15px;padding:22px 0}.timeline-index{width:44px;height:44px;border-radius:14px}.timeline-item h3{font-size:1.1rem}.steps-panel{padding:18px}.contact-grid{grid-template-columns:1fr;gap:30px}.contact-form{padding:23px}.contact-copy h2{font-size:2rem}.whatsapp-float{right:14px;bottom:14px;padding:11px 14px}.whatsapp-float span{display:inline}}
 @media(max-width:390px){.container{width:calc(100% - 28px)}.hero-actions{flex-direction:column}.hero-actions .button{width:100%}.hero-art{transform:scale(.72);margin:0 -40px -75px}.hero-bottom{font-size:.59rem}.value-grid,.principle-grid{grid-template-columns:1fr}.audience-item small{font-size:.75rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Identidade visual Voz Ativa */
+.brand { gap: 0; flex-shrink: 0; }
+.brand-logo { display:block; width: min(210px, 24vw); max-height: 72px; height:auto; object-fit:contain; }
+.brand-logo-footer { width: 190px; max-height: 86px; }
+.brand:focus-visible { outline: 3px solid var(--purple); outline-offset: 5px; border-radius: 8px; }
+.contact-detail small a { color: var(--purple-dark); font-weight: 700; }
+.contact-detail small a:hover { text-decoration: underline; }
+.whatsapp-float { gap: 8px; }
+.whatsapp-float::before { content: "✆"; font-size: 1.25rem; line-height: 1; }
+@media (max-width: 600px) {
+  .brand-logo { width: 160px; max-height: 64px; }
+  .brand-logo-footer { width: 170px; }
+}

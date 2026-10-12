@@ -31,3 +31,9 @@ Se usar um repositório chamado `SEU-USUARIO.github.io`, a URL costuma ser `http
 - GitHub Pages hospeda conteúdo estático; não oferece backend ou banco de dados para o formulário.
 - O botão WhatsApp fica como demonstração até você trocar o número de exemplo.
 - Fontes do Google Fonts precisam de conexão com a internet; se não estiverem disponíveis, o site usa fontes alternativas.
+
+
+## Identidade visual e contato
+- Logo: `assets/logo-voz-ativa.png`
+- WhatsApp configurado: `+55 (11) 96769-0666`
+- O botão flutuante e o formulário de contato direcionam para esse número.
